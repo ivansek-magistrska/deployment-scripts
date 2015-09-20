@@ -1,0 +1,6 @@
+If you get the Exception: PKCS12 format is not supported by the PyCrypto library. Try converting to a "PEM" (openssl pkcs12 -in xxxxx.p12 -nodes -nocerts > privatekey.pem) or using PyOpenSSL if native code is an option.
+
+do the following:
+
+$ sudo apt-get install libffi-dev
+$ pip install pyopenssl
